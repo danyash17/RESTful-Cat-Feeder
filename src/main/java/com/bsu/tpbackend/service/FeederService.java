@@ -19,7 +19,7 @@ public class FeederService {
 
     }
 
-    public void requsetDeleteFeeder(Integer id) {
+    public void requestDeleteFeeder(Integer id) {
         throw new NotImplementedException();
 
     }

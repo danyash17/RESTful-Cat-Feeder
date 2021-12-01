@@ -46,7 +46,7 @@ public class FeederController {
     @DeleteMapping("/{id}")
     public ResponseEntity requestDelete(@RequestParam Integer id) {
         try {
-            service.requsetDeleteFeeder(id);
+            service.requestDeleteFeeder(id);
             return ResponseEntity.ok("Request is on moderation");
         } catch (FeederNotFoundException e){
             return ResponseEntity.badRequest().body(e.getMessage());
